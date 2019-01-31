@@ -1,0 +1,6 @@
+killall screen
+while(true) do
+rm -fr ../.telegram-cli
+screen ./DEVIL.sh
+done
+echo -e "DEVIL IS RUN BOT"
