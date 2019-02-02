@@ -3,7 +3,7 @@
 --==>> بواسطة @P_PPPP <<==
 -- للمزيد من المعلومات قناتنا @LE_C4_KR
 الملف الاصلي لطه ستورم<<==
---]] STOR
+--]]
 redis = require('redis') utf8 = require ('lua-utf8') URL = require('socket.url')  HTTPS = require ("ssl.https")  https = require ("ssl.https") http  = require ("socket.http") serpent = dofile("./requfiles/serpent.lua") JSON  = dofile('./requfiles/dkjson.lua') json = dofile('./requfiles/JSON.lua')  
 marxdevDEVIL = redis.connect('127.0.0.1', 6379) DEVDEVIL = io.popen("echo $SSH_CLIENT | awk '{ print $1}'"):read('*a')
 function vardump(value)  print(serpent.block(value, {comment=false}))   end 
