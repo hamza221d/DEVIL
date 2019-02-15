@@ -3743,7 +3743,7 @@ if text and text:match("^اذاعه (-%d+)$") and is_devtaha(msg) then
 taha = text:match("^اذاعه (-%d+)$")
 tahadevstorm:set(DEVSTOR..'id:gp'..msg.chat_id_,taha)  
 tahadevstorm:setex(DEVSTOR.."bc:gp" .. msg.chat_id_ .. "" .. msg.sender_user_id_, 10000, true)  
-local t = '*📊¦ ارسل لي النص الذي تريده*'  
+local t = '*📊¦ ارسل لي المنشور الذي تريده*'  
 storm_sendMsg(msg.chat_id_, msg.id_, 1,t, 1, 'md') 
 end
 
