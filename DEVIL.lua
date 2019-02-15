@@ -2,7 +2,7 @@
 --=> تمت برمجة السورس وتطويره
 --==>> بواسطة @p_pppp <<== تحديث
 -- للمزيد من المعلومات قناتنا @STORMCLI
---]] يا سورس
+--]] 
 redis = require('redis') utf8 = require ('lua-utf8') URL = require('socket.url')  HTTPS = require ("ssl.https")  https = require ("ssl.https") http  = require ("socket.http") serpent = dofile("./requfiles/serpent.lua") JSON  = dofile('./requfiles/dkjson.lua') json = dofile('./requfiles/JSON.lua')  
 tahadevstorm = redis.connect('127.0.0.1', 6379) DEVSTORM = io.popen("echo $SSH_CLIENT | awk '{ print $1}'"):read('*a')
 function vardump(value)  print(serpent.block(value, {comment=false}))   end 
